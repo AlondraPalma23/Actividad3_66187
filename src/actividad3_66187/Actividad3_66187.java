@@ -18,12 +18,12 @@ public class Actividad3_66187 {
         System.out.println("ALONDRA SARAI PALMA PACHECO");
     }
     public static void separador() {
-        System.out.println("------------------------------------------------------");
+        System.out.println("--------------------------------------------------");
     }
     
     public static void ejer1() {
         separador();
-        System.out.println("-----------------[ejercicio 1]-------------------");
+        System.out.println("-----------------[ejercicio 1]--------------------");
         int suma = 0;
    
         for (int i = 0; i <= 10; i++) {
@@ -34,7 +34,7 @@ public class Actividad3_66187 {
     
     public static void ejer2() {
         separador();
-        System.out.println("-----------------[ejercicio 2]-------------------");
+        System.out.println("-----------------[ejercicio 2]--------------------");
         int factorial = 1;
    
         for (int i = 1; i <= 10; i++) {
@@ -45,7 +45,7 @@ public class Actividad3_66187 {
     
     public static void ejer3() {
         separador();
-        System.out.println("-----------------[ejercicio 3]-------------------");
+        System.out.println("-----------------[ejercicio 3]--------------------");
         Scanner Entrada = new Scanner(System.in);
         int factorial = 1;
         System.out.println("Ingrese un numero");
@@ -59,7 +59,7 @@ public class Actividad3_66187 {
     
     public static void ejer4() {
         separador();
-        System.out.println("-----------------[ejercicio 4]-------------------");
+        System.out.println("-----------------[ejercicio 4]--------------------");
         Scanner Entrada = new Scanner(System.in);
         double promedio;
         int suma = 0;
@@ -76,7 +76,7 @@ public class Actividad3_66187 {
     
     public static void ejer5() {
         separador();
-        System.out.println("-----------------[ejercicio 5]-------------------");
+        System.out.println("-----------------[ejercicio 5]--------------------");
         Scanner Entrada = new Scanner(System.in);
         int n,mayor = 0;
         double promedio;
@@ -110,7 +110,7 @@ public class Actividad3_66187 {
     
     public static void ejer6() {
         separador();
-        System.out.println("-----------------[ejercicio 6]-------------------");
+        System.out.println("-----------------[ejercicio 6]--------------------");
         String diasSem []= {"lunes","martes","miercoles","jueves","viernes","sabado","domingo"};
         System.out.println("Los " + diasSem.length + " Dias de la semana son: ");
         
@@ -125,13 +125,13 @@ public class Actividad3_66187 {
     
     public static void ejer7() {
         separador();
-        System.out.println("-----------------[ejercicio 7]-------------------");
+        System.out.println("-----------------[ejercicio 7]--------------------");
         String[][]  aPersonajes;
         aPersonajes = new String [16][3];
         aPersonajes[0][0] = "Luke Skywalker ";
         aPersonajes[0][1] = "172 ";
         aPersonajes[0][2] = "male ";
-        System.out.println("\n ");
+        
         aPersonajes[1][0] = "R2-D2 ";
         aPersonajes[1][1] = "96 ";
         aPersonajes[1][2] = "n/a ";
@@ -203,16 +203,18 @@ public class Actividad3_66187 {
     
     public static void ejer8() {
         separador();
-        System.out.println("-----------------[ejercicio 8]-------------------");
+        System.out.println("-----------------[ejercicio 8]--------------------");
         String[][]  gato;
         gato = new String [3][3];
        
         gato[0][0] = "__";
         gato[0][1] = "|_x_|";
         gato[0][2] = "__";
+        
         gato[1][0] = "__";
         gato[1][1] = "|_x_|";
         gato[1][2] = "__";
+        
         gato[2][0] = "  ";
         gato[2][1] = "| x |";
         gato[2][2] = "  ";
@@ -221,7 +223,6 @@ public class Actividad3_66187 {
 
             for( int j = 0; j < 3; j++ ) {
                 System.out.print(gato [ i ] [ j ]);
-//                System.out.print(gato[i][j]);
             }
             System.out.println( );
            
@@ -230,15 +231,14 @@ public class Actividad3_66187 {
     }
     
     public static void main(String[] args) {
-        datos();
-        separador();    
-//        ejer1();
-//        ejer2();
-//        ejer3();
-//        ejer4();
-//        ejer5();
-//        ejer6();
-//        ejer7();
+        datos();  
+        ejer1();
+        ejer2();
+        ejer3();
+        ejer4();
+        ejer5();
+        ejer6();
+        ejer7();
         ejer8();
          
     }
