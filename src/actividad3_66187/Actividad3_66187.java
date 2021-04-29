@@ -85,11 +85,11 @@ public class Actividad3_66187 {
                 
         System.out.println("Ingrese el numero de datos");
         int num = Entrada.nextInt();
-        
+        separador();
         for (int i = 1; i <= num; i++) {
-            System.out.println("Ingrese el numero " );
+            System.out.println("Ingrese el numero " + i );
             n = Entrada.nextInt();
-         
+
             if (n > mayor) {
                 mayor = n;
             }
@@ -100,12 +100,13 @@ public class Actividad3_66187 {
             suma = suma + n;
         }
             promedio = suma / num;
+        int distancia = mayor - menor;    
             
         System.out.println("Suma de los numeros es: " + suma);
         System.out.println("El promedio de es " + promedio);
         System.out.println("El numero " + mayor + " es el mayor");
         System.out.println("El numero " + menor + " es el menor");
-//        System.out.println("" + resta);
+        System.out.println("La distancia es de " + distancia);
     }
     
     public static void ejer6() {
@@ -232,13 +233,13 @@ public class Actividad3_66187 {
     
     public static void main(String[] args) {
         datos();  
-        ejer1();
-        ejer2();
-        ejer3();
-        ejer4();
-        ejer5();
-        ejer6();
-        ejer7();
+//        ejer1();
+//        ejer2();
+//        ejer3();
+//        ejer4();
+//        ejer5();
+//        ejer6();
+//        ejer7();
         ejer8();
          
     }
