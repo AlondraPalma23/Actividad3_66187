@@ -232,16 +232,16 @@ public class Actividad3_66187 {
     }
     
     public static void main(String[] args) {
+     
         datos();  
-//        ejer1();
-//        ejer2();
-//        ejer3();
-//        ejer4();
-//        ejer5();
-//        ejer6();
-//        ejer7();
+        ejer1();
+        ejer2();
+        ejer3();
+        ejer4();
+        ejer5();
+        ejer6();
+        ejer7();
         ejer8();
          
     }
-    
 }
