@@ -103,7 +103,7 @@ public class Actividad3_66187 {
         int distancia = mayor - menor;    
             
         System.out.println("Suma de los numeros es: " + suma);
-        System.out.println("El promedio de es " + promedio);
+        System.out.println("El promedio es " + promedio);
         System.out.println("El numero " + mayor + " es el mayor");
         System.out.println("El numero " + menor + " es el menor");
         System.out.println("La distancia es de " + distancia);
@@ -234,14 +234,14 @@ public class Actividad3_66187 {
     public static void main(String[] args) {
      
         datos();  
-        ejer1();
-        ejer2();
-        ejer3();
+//        ejer1();
+//        ejer2();
+//        ejer3();
         ejer4();
-        ejer5();
-        ejer6();
-        ejer7();
-        ejer8();
-         
+//        ejer5();
+//        ejer6();
+//        ejer7();
+//        ejer8();
+//         
     }
 }
